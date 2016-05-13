@@ -1,0 +1,20 @@
+[
+	{
+		"name": "VaiMoto",
+		"description": "Site de entregas via motoboy.",
+		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
+		"link": "http://www.vaimoto.com.br"
+	},
+	{
+		"name": "EasySponsor",
+		"description": "Patrocinio de clubes",
+		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
+		"link": "http://www.easysponsor.com.br"
+	},
+	{
+		"name": "Diário do Transporte",
+		"description": "Aplicativo Android",
+		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
+		"link": "#"
+	}
+]

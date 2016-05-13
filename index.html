@@ -1,1 +1,27 @@
-Hello World
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Vagner Cavalcante</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-controller="AppController">
+	<header>
+		<h1>Vagner Cavalcante</h1>
+		<p>vagnercsouzam@gmail.com - (11) 96611-9106</p>
+	</header>
+	<article ng-repeat="project in projects">
+		<a href="{{project.link}}" target="_blank">
+			<h1>{{project.name}}</h1>
+			<p>{{project.description}}</p>
+			<img src="{{project.image}}">
+		</a>
+	</article>
+	<footer>
+		&copy; 2016. Vagner Cavalcante.
+	</footer>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
