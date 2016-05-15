@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html ng-app="app">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Vagner Cavalcante</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body ng-controller="AppController">
 	<header>
 		<h1>Vagner Cavalcante</h1>
-		<p>vagnercsouzam@gmail.com - (11) 96611-9106</p>
+		<p>
+			<a href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="vagnercsouzam@gmail.com"><i class="icon-envelop"></i></a>
+			<a href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="(11) 96611-9106"><i class="icon-phone"></i></a>
+			<a href="https://github.com/vagnercsouza" target="_blank"><i class="icon-github"></i></a>
+			<a href="https://br.linkedin.com/in/vagner-cavalcante-474384b5" target="_blank"><i class="icon-linkedin"></i></a>
+		</p>
 	</header>
 	<article ng-repeat="project in projects">
 		<a href="{{project.link}}" target="_blank">
@@ -21,6 +29,8 @@
 	<footer>
 		&copy; 2016. Vagner Cavalcante.
 	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </body>
