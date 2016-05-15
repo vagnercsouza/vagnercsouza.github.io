@@ -7,7 +7,7 @@ var GitHubPage = {
 	},
 	initFullPage: function() {
 		$('#fullpage').fullpage({
-			'verticalCentered': false,
+			'verticalCentered': true,
 			'css3': true,
 			'navigation': true,
 			'navigationPosition': 'right'
