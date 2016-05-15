@@ -1,20 +1,32 @@
 [
 	{
 		"name": "VaiMoto",
-		"description": "Site de entregas via motoboy.",
+		"description": "Startup de solicitação de motoboys via site e aplicativo.",
 		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
 		"link": "http://www.vaimoto.com.br"
 	},
 	{
 		"name": "EasySponsor",
-		"description": "Patrocinio de clubes",
+		"description": "Startup de oferta e patrocínio de jogos de futebol.",
 		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
 		"link": "http://www.easysponsor.com.br"
 	},
 	{
 		"name": "Diário do Transporte",
-		"description": "Aplicativo Android",
+		"description": "Aplicativo Android com informações em tempo real de falhas nas linhas da CPTM e Metrô de São Paulo.",
 		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
 		"link": "#"
+	},
+	{
+		"name": "Rio Praia Maravilhosa",
+		"description": "Site institucional do programa Rio Praia Maravilhosa que visa incentivar a prática de atividades físicas.",
+		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
+		"link": "http://www.riopraiamaravilhosa.com.br/"
+	},
+	{
+		"name": "Rio Academia",
+		"description": "Site institucional do programa Rio Academia que disponibiliza academias ao ar livre.",
+		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
+		"link": "http://www.http://rioacademia.com.br//"
 	}
 ]
