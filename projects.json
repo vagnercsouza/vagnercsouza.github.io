@@ -1,32 +1,38 @@
 [
 	{
-		"name": "VaiMoto",
-		"description": "Startup de solicitação de motoboys via site e aplicativo.",
-		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
-		"link": "http://www.vaimoto.com.br"
-	},
-	{
 		"name": "EasySponsor",
 		"description": "Startup de oferta e patrocínio de jogos de futebol.",
-		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
+		"image": "images/easysponsor.jpg",
 		"link": "http://www.easysponsor.com.br"
+	},
+	{
+		"name": "VaiMoto",
+		"description": "Startup de solicitação de motoboys via site e aplicativo.",
+		"image": "images/vaimoto.jpg",
+		"link": "http://www.vaimoto.com.br"
 	},
 	{
 		"name": "Diário do Transporte",
 		"description": "Aplicativo Android com informações em tempo real de falhas nas linhas da CPTM e Metrô de São Paulo.",
-		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
-		"link": "#"
+		"image": "images/diario-transporte.jpg",
+		"link": "https://play.google.com/store/apps/details?id=br.com.vagner.diariodotransporte"
 	},
 	{
 		"name": "Rio Praia Maravilhosa",
 		"description": "Site institucional do programa Rio Praia Maravilhosa que visa incentivar a prática de atividades físicas.",
-		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
+		"image": "images/rio-praia.jpg",
 		"link": "http://www.riopraiamaravilhosa.com.br/"
 	},
 	{
 		"name": "Rio Academia",
 		"description": "Site institucional do programa Rio Academia que disponibiliza academias ao ar livre.",
-		"image": "https://pitchdeck.improvepresentation.com/img/other.png",
-		"link": "http://www.http://rioacademia.com.br//"
+		"image": "images/rio-academia.jpg",
+		"link": "http://www.http://rioacademia.com.br/"
+	},
+	{
+		"name": "Funcional Card",
+		"description": "Aplicativo Android da Funcional Card.",
+		"image": "images/funcional.jpg",
+		"link": "https://play.google.com/store/apps/details?id=br.com.funcionalcard"
 	}
 ]
